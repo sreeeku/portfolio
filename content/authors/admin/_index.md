@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Sai Sreekar Uppuluri
 
 # Username (this should match the folder name)
 authors:
