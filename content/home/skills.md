@@ -18,7 +18,7 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "60%"
+  description = "70%"
 
 [[feature]]
   icon = "java"
@@ -27,10 +27,16 @@ subtitle = ""
   description = "60%"  
 
 [[feature]]
-  icon = "java-script"
-  icon_pack = "fab"
-  name = "Java script"
-  description = "10%"
+  icon = "pytorch-icon_2"
+  icon_pack = "custom"
+  name = "Pytorch"
+  description = "50%"
+
+[[feature]]
+  icon = "tensorflow-icon_2"
+  icon_pack = "custom"
+  name = "TensorFlow"
+  description = "60%"
 
 # Uncomment to use emoji icons.
 # [[feature]]
