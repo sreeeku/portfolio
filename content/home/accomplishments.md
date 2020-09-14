@@ -89,7 +89,7 @@ date_format = "Jan 2006"
   description = ""
 
 [[item]]
-  organization = "Coursera"
+  organization = "IBM"
   organization_url = "https://www.ibm.com/cloud/websites"
   title = "IBM Certified Application Developer - Cloud Solutions v3"
   url = ""
