@@ -21,31 +21,85 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  title = "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/ME6AMWGJJVXU"
+  date_start = "2020-08-14"
   date_end = ""
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Structuring Machine Learning Projects"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/3MX8GQMYK4JG"
+  date_start = "2020-08-14"
+  date_end = ""
   description = ""
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Neural Networks and Deep Learning"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/66UPNZYYZGFX"
+  date_start = "2020-08-14"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Convolutional Neural Networks"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/3FHVMU2SASAN"
+  date_start = "2020-08-14"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/L6ARTXA3PT7H"
+  date_start = "2020-07-14"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Convolutional Neural Networks in Tensor Flow"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/N2MSD6FM6LKJ"
+  date_start = "2020-07-14"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Mathematics for Machine Learning: Linear Algebra"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/R52HZALGHC47"
+  date_start = "2019-03-14"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.ibm.com/cloud/websites"
+  title = "IBM Certified Application Developer - Cloud Solutions v3"
+  url = ""
+  certificate_url = "https://drive.google.com/open?id=1JK_p6fVQVr8wcOarRnHvBy1v68wMM3rV"
+  date_start = "2018-12-14"
+  date_end = ""
+  description = ""
+
+
+
+
 
 +++
