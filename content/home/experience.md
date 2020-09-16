@@ -21,19 +21,19 @@ date_format = "Jan 2006"
 title = "Systems Engineer" 
 company = "Tata Consultancy Services" 
 company_url = "" 
-location = "India" 
+location = "Hyderabad, India" 
 date_start = "2018-05-10" 
 date_end = "2019-10-31" 
 description = """ Kaiser Permanante: I have worked on a base application called Common Archival and retreival system(CARS), where we used to archive PDFs and retrieve them onto the respective front end application called CARSONLINE. In this application, I have worked on JAVA, SOAP Web Services, and SQL."""
 
 [[experience]] 
-title = "Professor" 
-company = "University X" 
+title = "Assistant Systems Engineer" 
+company = "Tata Consultancy Services" 
 company_url = "" 
-location = "California" 
-date_start = "2016-01-01" 
-date_end = "2016-12-31" 
-description = """Taught electronic engineering and researched semiconductor physics."""
+location = "Hyderabad, India" 
+date_start = "2018-01-10" 
+date_end = "2018-04-31" 
+description = """Society For Elimination Of Rural Property: I have worked on building dynamic web pages using ASP.net, where all the people who are eligible for government schemes can walk through the pages and come to an understanding of what all they can avail """
 
 
 
