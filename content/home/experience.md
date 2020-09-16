@@ -18,17 +18,13 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]] 
-title = "CEO" 
-company = "GenCoin" 
+title = "Systems Engineer" 
+company = "Tata Consultancy Services" 
 company_url = "" 
-location = "California" 
-date_start = "2017-01-01" 
-date_end = "" 
-description = """ Responsibilities include:
-
-- Analysing
-- Modelling
-- Deploying """
+location = "India" 
+date_start = "2018-05-10" 
+date_end = "2019-10-31" 
+description = """ Kaiser Permanante: I have worked on a base application called Common Archival and retreival system(CARS), where we used to archive PDFs and retrieve them onto the respective front end application called CARSONLINE. In this application, I have worked on JAVA, SOAP Web Services, and SQL."""
 
 [[experience]] 
 title = "Professor" 
