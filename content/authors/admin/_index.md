@@ -15,7 +15,7 @@ role: Computer Science Student
 # Organizations/Affiliations
 organizations:
 - name: University of Texas at Arlington
-  url: ""
+  url: http://www.uta.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My current interests are in Machine Learning, Deep Learning and Computer Vision.
