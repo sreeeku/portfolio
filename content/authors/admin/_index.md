@@ -30,8 +30,8 @@ education:
   - course: MS in Computer Science
     institution: University of Texas at Arlington
     year: 2020
-  - course: BE in Andhra University
-    institution: Massachusetts Institute of Technology
+  - course: BE in Electronics and Communication
+    institution: Andhra University
     year: 2012-2016
 
 # Social/Academic Networking
