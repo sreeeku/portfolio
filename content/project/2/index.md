@@ -1,6 +1,6 @@
 ---
 title: Line Follower Robot
-summary: The robot will use two infrared proximity sensors to detect the line and based on that traverses the path `external_link`.
+summary: The robot will use two infrared proximity sensors to detect the line and based on that traverses the path.
 tags:
 - Demo
 date: "2020-09-16T00:00:00Z"
