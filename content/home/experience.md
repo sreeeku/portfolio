@@ -22,8 +22,8 @@ date_format = "Jan 2006"
   company = "Tata Consultancy Services"
   company_url = ""
   location = "Hyderabad, India"
-  date_start = "2018-05-10"
-  date_end = "2019-10-31"
+  date_start = "May 2018"
+  date_end = "Oct 2019"
   description = """Kaiser Permanante: I have worked on a base application called Common Archival and retreival system(CARS), where we used to archive PDFs and retrieve them onto the respective front end application called CARSONLINE. In this application, I have worked on JAVA, SOAP Web Services, and SQL. """
 
 [[experience]]
@@ -31,8 +31,8 @@ date_format = "Jan 2006"
   company = "Tata Consultancy Services "
   company_url = ""
   location = "Hyderabad, India"
-  date_start = "2018-01-10"
-  date_end = "2018-04-31"
+  date_start = "Jan 2018"
+  date_end = "April 2018"
   description = """Society For Elimination Of Rural Property: I have worked on building dynamic web pages using ASP.net, where all the people who are eligible for government schemes can walk through the pages and come to an understanding of what all they can avail. """
 
 [[experience]]
@@ -40,8 +40,8 @@ date_format = "Jan 2006"
   company = "Tata Consultancy Services"
   company_url = ""
   location = "Hyderabad, India"
-  date_start = "2017-05-15"
-  date_end = "2017-12-31"
+  date_start = "May 2017"
+  date_end = "Dec 2017"
   description = """Allianz Global Investors: I have worked on building java classes from scratch for various engines which are used        to generate stock and investment charts."""
 
 
