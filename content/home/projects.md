@@ -74,7 +74,21 @@ tag = "Deep Learning"
   # Text color (true=light or false=dark).
   # text_color_light = true  
 
-[advanced]
+[background]
+
+color = "navy"
+
+gradient_start = "\#4bb4e3"
+gradient_end = "\#2b94c3"
+
+image = "SmartAquaculture.jpg"
+image_darken = 0.6
+image_size = "cover"
+image_position = "center"
+image_parallax = true
+
+text_color_light = true
+
  # Custom CSS. 
  css_style = ""
 
