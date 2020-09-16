@@ -33,7 +33,7 @@ date_format = "Jan 2006"
   location = "Hyderabad, India"
   date_start = "2018-01-10"
   date_end = "2018-04-31"
-  description = """Society For Elimination Of Rural Property: I have worked on building dynamic web pages using ASP.net, where all the people who are eligible for government schemes can walk through the pages and come to an understanding of what all they can avail """
+  description = """Society For Elimination Of Rural Property: I have worked on building dynamic web pages using ASP.net, where all the people who are eligible for government schemes can walk through the pages and come to an understanding of what all they can avail. """
 
 [[experience]]
   title = "Assistant Systems Engineer"
@@ -42,7 +42,7 @@ date_format = "Jan 2006"
   location = "Hyderabad, India"
   date_start = "2017-05-15"
   date_end = "2017-12-31"
-  description = """Allianz Global Investors: I have worked on building java classes from scratch for various engines which are used to generate stock and investment charts."""
+  description = """Allianz Global Investors: I have worked on building java classes from scratch for various engines which are used        to generate stock and investment charts."""
 
 
 
