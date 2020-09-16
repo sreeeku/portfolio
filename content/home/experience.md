@@ -31,8 +31,8 @@ title = "Assistant Systems Engineer"
 company = "Tata Consultancy Services" 
 company_url = "" 
 location = "Hyderabad, India" 
-date_start = "2016-01-01" 
-date_end = "2016-12-31" 
+date_start = "2018-01-10" 
+date_end = "2018-04-31" 
 description = """Taught electronic engineering and researched semiconductor physics."""
 
 
