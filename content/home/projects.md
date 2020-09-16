@@ -78,8 +78,8 @@ tag = "Deep Learning"
 
 color = "navy"
 
-gradient_start = "\#4bb4e3"
-gradient_end = "\#2b94c3"
+gradient_start = "DeepSkyBlue"
+gradient_end = "SkyBlue"
 
 image = "SmartAquaculture.jpg"
 image_darken = 0.6
