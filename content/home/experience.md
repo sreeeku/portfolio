@@ -26,6 +26,15 @@ date_start = "2018-05-10"
 date_end = "2019-10-31" 
 description = """ Kaiser Permanante: I have worked on a base application called Common Archival and retreival system(CARS), where we used to archive PDFs and retrieve them onto the respective front end application called CARSONLINE. In this application, I have worked on JAVA, SOAP Web Services, and SQL."""
 
+[[experience]] 
+title = "Assistant Systems Engineer" 
+company = "Tata Consultancy Services" 
+company_url = "" 
+location = "Hyderabad, India" 
+date_start = "2018-01-10" 
+date_end = "2018-04-31" 
+description = """ Society For Elimination Of Rural Property: I have worked on building dynamic web pages using ASP.net, where all the people who are eligible for government schemes can walk through the pages and come to an understanding of what all they can avail """
+
 
 
 
