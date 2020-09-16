@@ -18,25 +18,31 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "70%"
 
 [[feature]]
   icon = "java"
   icon_pack = "fab"
   name = "Java"
-  description = "60%"  
 
 [[feature]]
   icon = "pytorch-icon_2"
   icon_pack = "custom"
   name = "Pytorch"
-  description = "50%"
 
 [[feature]]
   icon = "tensorflow-icon_2"
   icon_pack = "custom"
   name = "TensorFlow"
-  description = "60%"
+
+[[feature]]
+  icon = "Alecive-Flatwoken-Apps-Matlab"
+  icon_pack = "custom"
+  name = "Matlab"
+
+  [[feature]]
+  icon = "keras-icon_1"
+  icon_pack = "custom"
+  name = "Keras"
 
 # Uncomment to use emoji icons.
 # [[feature]]
