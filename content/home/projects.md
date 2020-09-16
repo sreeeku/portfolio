@@ -9,6 +9,7 @@ title = "Projects"
 subtitle = ""
 
 [content]
+
   # Page type to display. E.g. project.
   page_type = "project"
 
@@ -33,13 +34,19 @@ subtitle = ""
   #   name = "Other"
   #   tag = "Demo"
 
-[[content.filter_button]]
-name = "All"
-tag = "*"
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
 
-[[content.filter_button]]
-name = "Deepl Learning"
-tag = "Deep Learning"
+  [[content.filter_button]]
+    name = "Deep Learning"
+    tag = "Deep Learning"
+
+  [[content.filter_button]]
+    name = "Other"
+    tag = "Demo"
+
+[design]
 
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
@@ -49,10 +56,10 @@ tag = "Deep Learning"
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 5
+  view = 3
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = true
+  flip_alt_rows = false
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -74,20 +81,7 @@ tag = "Deep Learning"
   # Text color (true=light or false=dark).
   # text_color_light = true  
 
-[background]
-
-color = "navy"
-
-gradient_start = "DeepSkyBlue"
-gradient_end = "SkyBlue"
-
-image = "SmartAquaculture.jpg"
-image_darken = 0.6
-image_size = "cover"
-image_position = "center"
-image_parallax = true
-
-text_color_light = true
+[advanced]
 
  # Custom CSS. 
  css_style = ""
