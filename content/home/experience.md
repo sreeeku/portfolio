@@ -28,7 +28,7 @@ description = """ Kaiser Permanante: I have worked on a base application called 
 
 [[experience]] 
 title = "Assistant Systems Engineer" 
-company = "Tata Consultancy Services" 
+company = "Tata Consultancy " 
 company_url = "" 
 location = "Hyderabad, India" 
 date_start = "2018-01-10" 
