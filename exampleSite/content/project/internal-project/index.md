@@ -1,5 +1,5 @@
 ---
-title: Internal Project
+title: Smart Aquaculture
 summary: An example of using the in-built project page.
 tags:
 - Deep Learning
@@ -15,7 +15,7 @@ image:
 links:
 - icon: twitter
   icon_pack: fab
-  name: Follow
+  name: Connect
   url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
