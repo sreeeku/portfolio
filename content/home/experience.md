@@ -32,7 +32,7 @@ company = "Tata Consultancy Services"
 company_url = "" 
 location = "Hyderabad, India" 
 date_start = "2018-01-10" 
-date_end = "2018-03-10" 
+date_end = "2018-04-10" 
 description = """Society For Elimination Of Rural Property: I have worked on building dynamic web pages using ASP.net, where all the people who are eligible for government schemes can walk through the pages and come to an understanding of what all they can avail ."""
 
 [[experience]] 
