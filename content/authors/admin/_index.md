@@ -64,4 +64,4 @@ user_groups:
 - Visitors
 ---
 
-I'm a Master's student pursuing Computer Science at the University of Texas at Arlington (UTA). My current interests are in applications of Deep Learning in Computer Vision and Natural Language Processing. 
+I'm a Masters student pursuing Computer Science at the University of Texas at Arlington (UTA). My current interests are in applications of Deep Learning in Computer Vision and Natural Language Processing. 
