@@ -13,7 +13,7 @@ draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image: `featured.png`
+image: 
   caption: ""
   focal_point: ""
 
