@@ -8,12 +8,12 @@ tags: []
 categories: []
 date: "2020-26-10T00:00:00Z"
 lastMod: "2019-26-10T00:00:00Z"
-featured: false
+featured: true
 draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image: 
+image: `featured.png`
   caption: ""
   focal_point: ""
 
