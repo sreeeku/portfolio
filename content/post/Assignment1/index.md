@@ -59,6 +59,8 @@ def generateTrainandTestData(num_of_rands, split_size):
 
 ### Method that returns coefficients , Train and Test Predictions based on Regularization parameter
 
+> #### Ridge Regression is used to Regularize the weights 
+
 
 ```python
 def getCoefficients(degree_of_poly,X_train, X_test, y_train, y_test, regularization, lamda_val=0):
