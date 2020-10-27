@@ -1,3 +1,31 @@
+---
+title: Overfitting vs Underfitting
+subtitle: Concept of Overfitting using Polynomial Regression
+summary:  
+authors:
+- admin
+tags: []
+categories: []
+date: "2020-26-10T00:00:00Z"
+lastMod: "2019-26-10T00:00:00Z"
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image: 'featured.png'
+  caption: ""
+  focal_point: ""
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references 
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
 #   <span style ="text-align: center">Concept of Overfitting using Polynomial Regression </span>
 
 
@@ -109,7 +137,7 @@ df_weights
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -298,6 +326,7 @@ coeffcient_list_100, train_pred_list_100, test_pred_list_100  = getPredictandCoe
 > 2. To avoid Overfitting we can 
 > > 1. Use more data
 > > 2. Apply Regularization
+>
 > 3. Here we have used more data and we can see that the model is approximating quite well
 
 
