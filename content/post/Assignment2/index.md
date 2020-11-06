@@ -1,3 +1,34 @@
+---
+title: K Nearest Neighbors Algorithm
+subtitle: Concept of Overfitting using Polynomial Regression
+url_code: ""
+summary:  
+authors:
+- admin
+tags: []
+categories: []
+date: "2020-26-10T00:00:00Z"
+lastMod: "2019-26-10T00:00:00Z"
+featured: true
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image: 
+  caption: ""
+  focal_point: ""
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references 
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+
+
 <h1 style = 'color:#4b63b8;text-align:center'>K Nearest Neighbors Algorithm</h1>
 
 <h3 style = 'color:#e31212'>Libraries Used</h3>
