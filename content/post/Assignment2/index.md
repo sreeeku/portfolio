@@ -457,15 +457,10 @@ X_train, X_dev = train_test_split(rest, test_size = 0.3)
 
 ## Normalizing the Dataset
 * This function normalizes the Dataset, after the normalizing all the feature values are in (0,1)
+
 * While Normalizing we use Summary Statistics Information like x-min and x-max for each feature
   
-     $$
-     \begin{align} 
-     X_{normalized} =  \frac{X - X_{min}}{X_{max} - X_{min}} 
-     \end{align}
-     $$
-
-
+     ![png](Capture1.png)
 
 
 ```python
@@ -496,10 +491,8 @@ def normalized_dataset(mini,maxi,dataset):
 > 1. In this method we are calculating the euclidean distance between the test row and the whole dataset and the return values are list of tuples with data row and the respective distance to the test row 
 >
 > 2. Formula for calculating euclidean distance is given as
->   $$
->   \sqrt{\sum_{i=1}^n (x_i-y_i)^2}
->   $$
->
+> 
+>    ![png](Capture2.png)
 > 3. I have used the concept of <strong>*Vectorization*</strong> to calculate the distance. <strong>*Vectorization*</strong> is used to make the calculation process speed up without using any loop
 >
 > 4. First we take the Dev data and transpose the dataset, So now we have dataset in the form of the shape [features, samples] and we transpose the test row and its shape will be [features, one_sample].
@@ -507,76 +500,31 @@ def normalized_dataset(mini,maxi,dataset):
 > 5. For better visualization purpose, let us consider first 4 rows of IRIS data as Train data and 5th row as Dev row
 >
 > 6. Below is the transposed Train and dev data.
->    
->     $$
->     \begin{bmatrix}
->     5.1 &   4.9 &   4.7 &   4.6\\      
->     3.2 &   3.0 &   3.2 &   3.1\\
->     1.4 &   1.4 &   1.3 &   1.5\\
->     0.2 &   0.2 &   0.2 &   0.2\\
->     \end{bmatrix} -  \begin{bmatrix}
->     5.0 \\
->     3.6 \\
->     1.4 \\
->     0.2 \\
->     \end{bmatrix} = 
->      \begin{bmatrix}
->    0.1 &   0.1 &   -0.3 &   0.4\\      
->    -0.4 &   -0.6 &   0.4 &   0.5\\
->     0.0 &   0.0 &   0.1 &   0.1\\
->     0.0 &   0.0 &   0.0 &   0.0\\
->     \end{bmatrix}
->    $$
->    
->
->
+>   
+>     ![png](Capture3.png)
+> 
+> 
 > 7. The above calculation is possible because of <strong>*Brodcasting*</strong> in numpy. The below figure illustrates <strong>*Brodcasting*</strong> clearly.
-> ![png](download.png)
+>                                               ![png](download.png)
 > <strong>Note</strong>: The significance of <strong>*Vectorization*</strong> is evident when the dataset is considerably large. This concept helps us to calculate the distance in just one go
 
 * <strong>calculate_cosine_similarity:</strong>
 > 1. In this method we calculate the cosine similarity between the test row nad whole dataset and the return values are list of tuples with data row and respective similarity with the test row
-  
+
   2. The calculations for this distance metric are also done with <strong>*Vectorization*</strong> as stated above
   
-  3. Formula for calculating Cosine Similarity is given as 
-      $$
-      \begin{equation}
-     \cos ({\bf A},{\bf B})= {{\bf A} {\bf B} \over \|{\bf A}\| \|{\bf B}\|}
-     \end{equation}
-     $$
+  3. Formula for calculating Cosine Similarity is given as
+      
+      ​																	 ![png](Capture4.png)
+     
      <br/>
      
-  4. First I have calculated
-      $$
-      {{\bf devrow}  \over \|{\bf devrow}\|}
-      $$
-      and then I have calculated the 
-      $$
-      {{\bf  traindata}  \over \|{\bf traindata}\| }  \
-      $$
-      
-      
-       and finally used <strong>*Dot Product*</strong> to get the similarity
-      
-  5. As dev and train data are normalized according to their respective features, for visualization given below is how the product looks like
-      $$
-      \begin{bmatrix}
-          0.5&   0.1&   0.3&   0.6
-          \end{bmatrix} * 
-      \begin{bmatrix}
-          0.1 &   0.9 &   0.7 &   0.6\\      
-          0.2 &   0.5 &   0.2 &   0.1\\
-          0.4 &   0.4 &   0.3 &   0.5\\
-          0.2 &   0.2 &   0.2 &   0.2\\
-          \end{bmatrix} = 
-      \begin{bmatrix}
-          0.31&   0.74&   0.58&   0.58
-          \end{bmatrix}
-      $$
-  
+  4. First I have calculated ![png](Capture5.png)and then I have calculated the  ![png](Capture6.png)and finally used <strong>*Dot Product*</strong> to get the similarity
+
+  5. As dev and train data are normalized according to their respective features, for visualization given below is how the product looks like ![png](Capture7.png)
+
         <br/>
-  
+
   6. In a similar fashion we get Cosine similarity of the complete dataset in one go
 
 
