@@ -1,6 +1,6 @@
 ---
 title: K Nearest Neighbors Algorithm
-subtitle: Concept of Overfitting using Polynomial Regression
+subtitle: Calculating the nearest neighbors using various distance metrics
 url_code: "https://www.dropbox.com/s/bxyq555biga1p70/Uppuluri_02.ipynb?dl=0"
 summary:  
 authors:
