@@ -138,7 +138,7 @@ iris_df.head(10)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -283,7 +283,7 @@ print("Number of samples for Class 2:",len(iris_df[iris_df.target_class == 2]))
     Number of samples for Class 0: 50
     Number of samples for Class 1: 50
     Number of samples for Class 2: 50
-    
+
 
 ## Summary of all Attributes:
 
@@ -304,7 +304,7 @@ iris_df.describe(include = 'all')
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -427,8 +427,8 @@ X_train, X_dev = train_test_split(rest, test_size = 0.3)
 ## Normalizing the Dataset
 * This function normalizes the Dataset, after the normalizing all the feature values are in (0,1)
 * While Normalizing we use Summary Statistics Information like x-min and x-max for each feature
-     
-     $$ 
+  
+     $$
      \begin{align} 
      X_{normalized} =  \frac{X - X_{min}}{X_{max} - X_{min}} 
      \end{align}
@@ -490,7 +490,7 @@ def normalized_dataset(mini,maxi,dataset):
 >
 >
 > 7. The above calculation is possible because of <strong>*Brodcasting*</strong> in numpy. The below figure illustrates <strong>*Brodcasting*</strong> clearly.
-  ![image.png](attachment:image.png)
+  ![png](download.png)
 > <strong>Note</strong>: The significance of <strong>*Vectorization*</strong> is evident when the dataset is considerably large. This concept helps us to calculate the distance in just one go
 
 * <strong>calculate_cosine_similarity:</strong>
@@ -518,7 +518,7 @@ def normalized_dataset(mini,maxi,dataset):
           \end{bmatrix}$ 
         <br/>
   6. In a similar fashion we get Cosine similarity of the complete dataset in one go
-   
+
 
 * <strong>Normalized Euclidean Distance:</strong>
 > * It is just calculating Euclidean distance with Normalized Dataset.
@@ -638,7 +638,7 @@ euclid_acc_df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -713,7 +713,7 @@ cosine_acc_df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -789,7 +789,7 @@ normalized_euclid_acc_df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -897,7 +897,7 @@ print("My model based on Dev set accuracy is {}, with k= {} and accuracy= {} %".
 ```
 
     My model based on Dev set accuracy is Euclidean, with k= 5 and accuracy= 96.875 %
-    
+
 
 ## Using the optimal hyperparameters, below is the performance on Test set
 
@@ -922,7 +922,7 @@ else:
 ```
 
     Accuracy using Euclidean with k = 5 is 97.77777777777777 %
-    
+
 
 ## References:
 > * https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
