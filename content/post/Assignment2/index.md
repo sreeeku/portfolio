@@ -514,9 +514,9 @@ def normalized_dataset(mini,maxi,dataset):
   2. The calculations for this distance metric are also done with <strong>*Vectorization*</strong> as stated above
   
   3. Formula for calculating Cosine Similarity is given as
-      
-      ​																	 ![png](Capture4.png)
      
+      ​																	 ![png](Capture4.png)
+     ​     
      <br/>
      
   4. First I have calculated ![png](Capture5.png)and then I have calculated the  ![png](Capture6.png)and finally used <strong>*Dot Product*</strong> to get the similarity
