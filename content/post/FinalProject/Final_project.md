@@ -1,6 +1,6 @@
 ---
-title: K Nearest Neighbors Algorithm
-subtitle: Calculating the nearest neighbors using various distance metrics
+title: Board game Geek Review Predictor
+subtitle: Predict the rating for the given review
 url_code: "https://www.dropbox.com/sh/vje3chbuqexfvb8/AABoczbl0oedwpCZsHd13XZ2a?dl=0"
 summary:  
 authors:
@@ -29,12 +29,15 @@ projects: []
 
 
 
-[Kaggle Notebook]: https://www.kaggle.com/saisreekaruppuluri/sreekaruppuluri-finalproject?scriptVersionId=49261591
-[Demo Video]: https://www.youtube.com/watch?v=HOuZV0TyulM
-[Web Application]: https://gamereviewpredictor.herokuapp.com/
-[Deployment instructions - Github]: https://github.com/sreeeku/GameReviewPredictor
+[Kaggle Notebook](https://www.kaggle.com/saisreekaruppuluri/sreekaruppuluri-finalproject?scriptVersionId=49261591)
 
+[Demo Video](https://www.youtube.com/watch?v=HOuZV0TyulM)
 
+[Web Application](https://gamereviewpredictor.herokuapp.com/)
+
+[Deployment instructions - Github](https://github.com/sreeeku/GameReviewPredictor])
+
+<h1 style = 'color:#4b63b8;text-align:center'>Board Game Geek Review Predictor</h1>
 
 # Libraries Used
 
@@ -619,7 +622,7 @@ df_reviews_tfidf_pkl.head(10)
    50% of the data for training my models. 
 >* Approximately after sampling my dataset is 1.5M reviews which is not a small
    amount and we still a have chance to build a model that predicts the rating of the review accurately.
-    ![sampling.png](sampling.png)
+    ![png](sampling.png)
 
 
 ```python
@@ -649,7 +652,7 @@ X_train_tfidf, X_test_tfidf, y_train_tfidf, y_test_tfidf = train_test_split(revi
 >* TF-IDF represents Term Frequency-Inverse Documnet Frequency
 >* The main aim of the TF-IDF Vectorizer is to convert the corpus of data into feature matrix.
 >* It states the importance of a word based on the occurence of the word in the document multiplied by the number of documents the word appeared in 
-    ![tf-idf.png](tf-idf.png)
+    ![png](tf-idf.png)
 
 
 
@@ -684,7 +687,7 @@ pickle.dump(tfidf_vectorizer, open("TFIDF_Vectorizer.p","wb"))
 >* Underlying operation of Random Forests is they construct multiple decision trees and output the mean or average predicition of the individual trees.
 >* Random forests perform better than the conventional Decision Trees.
 >* To make predicitons for given review, one of my models is Random Forest Regressor.
-   ![random-forest.png](random-forest.png)
+   ![png](random-forest.png)
 
 
 ```python
@@ -725,7 +728,7 @@ print("Mean Squared error for Random Forest Regressor is :", error_random_forest
 >* And that Regularizing parameter is controlled by **α** 
 >* And to get the better idea of the performance of the model, I performed Cross Validation and hyperparameter tuning. so that 
    the final model we get will be the model with particular hyperparameter having lowest error.
-   ![ridge-reg.png](ridge-reg.png)
+   ![png](ridge-reg.png)
 
 
 ```python
@@ -757,7 +760,7 @@ pickle.dump(ridge_reg, open( "Ridge_Regression_Model.p", "wb" ))
 
 >* Another model I used to predict the rating is Lasso Regression. Here also I have performed Hyperparameter tuning and 
    Cross Validation to get better estimate of the performance of the model.
-   ![lasso-reg.png](lasso-reg.png)
+   ![png](lasso-reg.png)
 
 
 ```python
@@ -790,7 +793,7 @@ print("Mean Squared error for Lasso Regression is :", error_lasso)
 
 >* Linear Regression is a model used to find the relationship between dependent variable and given set of independent variable
 >* As there are no hyperparameters for this model I have done 5-Fold cross validation on the Dataset using this model
-   ![lin-reg.png](lin-reg.png)
+   ![png](lin-reg.png)
 
 
 ```python
@@ -1088,6 +1091,16 @@ round(prediction[0],1)
 >* https://www.kaggle.com/oldelephant/term-project-data-mining
 >* https://pythonhealthcare.org/2018/12/14/101-pre-processing-data-tokenization-stemming-and-removal-of-stop-words/
 >* https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f
+>* https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+>* https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html
+>* https://scikit-learn.org/stable/modules/linear_model.html
+>* https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html
+>* https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html
+>* https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoCV.html
+>* https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html
+>* https://scikit-learn.org/stable/modules/cross_validation.html
+>* https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+>* https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html
 
 
 ```python
