@@ -35,7 +35,7 @@ projects: []
 
 [Web Application](https://gamereviewpredictor.herokuapp.com/)
 
-[Deployment instructions - Github](https://github.com/sreeeku/GameReviewPredictor])
+[Deployment instructions - Github](https://github.com/sreeeku/GameReviewPredictor)
 
 <h1 style = 'color:#4b63b8;text-align:center'>Board Game Geek Review Predictor</h1>
 
